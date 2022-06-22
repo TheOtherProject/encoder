@@ -9,7 +9,7 @@ export interface Value {
   lt: string;
 }
 
-export interface Asset {
+export interface OrderAsset {
   token: string;
   amount: Value;
   id: string;
@@ -18,8 +18,8 @@ export interface Asset {
 
 export interface Order {
   orderType: string;
-  collateral: Asset[][];
-  principal: Asset[][];
+  collateral: OrderAsset[][];
+  principal: OrderAsset[][];
   interest: {
     token: string;
     amount: Value;
@@ -33,10 +33,17 @@ export interface Order {
   nonce: string;
 }
 
+export interface MakeAsset {
+  token: string;
+  amount: Value;
+  id: string;
+  tokenType: TokenType;
+}
+
 export interface Make {
   orderType: string;
-  collateral: Asset[];
-  principal: Asset[];
+  collateral: MakeAsset[];
+  principal: MakeAsset[];
   interest: {
     token: string;
     amount: string;
