@@ -1,0 +1,84 @@
+{
+  "order": {
+    "orderType": "0",
+    "collateral": [
+      [
+        {
+          "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "amount": {
+            "gt": "100",
+            "lt": "100"
+          },
+          "id": "0",
+          "tokenType": "0"
+        }
+      ]
+    ],
+    "principal": [
+      [
+        {
+          "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "amount": {
+            "gt": "100",
+            "lt": "100"
+          },
+          "id": "0",
+          "tokenType": "0"
+        }
+      ]
+    ],
+    "interest": {
+      "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "amount": {
+        "gt": "100",
+        "lt": "100"
+      },
+      "total": {
+        "gt": "1000",
+        "lt": "1000"
+      },
+      "rate": {
+        "gt": "10",
+        "lt": "10"
+      },
+      "period": {
+        "gt": "123",
+        "lt": "123"
+      },
+      "relative": "1"
+    },
+    "term": { "gt": "100", "lt": "100" },
+    "expires": "100",
+    "nonce": "0"
+  },
+  "make": {
+    "orderType": "1",
+    "collateral": [
+      {
+        "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "amount": "100",
+        "id": "0",
+        "tokenType": "0"
+      }
+    ],
+    "principal": [
+      {
+        "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "amount": "100",
+        "id": "0",
+        "tokenType": "0"
+      }
+    ],
+    "interest": {
+      "token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "amount": "100",
+      "total": "1000",
+      "rate": "10",
+      "period": "123",
+      "relative": "1"
+    },
+    "term": "100",
+    "expires": "100",
+    "nonce": "0"
+  }
+}
