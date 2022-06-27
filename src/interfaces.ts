@@ -35,7 +35,7 @@ export interface Order {
 
 export interface MakeAsset {
   token: string;
-  amount: Value;
+  amount: string;
   id: string;
   tokenType: TokenType;
 }
